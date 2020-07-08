@@ -1,0 +1,27 @@
+﻿@*@model PartyInvites.Models.Produkt_Razor[]*@
+@using PartyInvites.Models
+@model Produkt_Razor[]
+
+@{
+    ViewBag.Title = "demoArray";
+    Layout = "~/Views/_BasicLayout.cshtml";
+}
+
+@if(Model.Length > 0) {
+    <table>
+        <thread><tr><th>Produkt</th><th>Cena</th></tr></thread>
+        <tbody>
+            @foreach (Produkt_Razor p in Model)
+            {
+                <tr>
+                    <td>@p.Name</td>
+                    <td>@p.Price zł</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+} 
+else
+{
+    <h2>Brak ddanych produktu</h2>
+}

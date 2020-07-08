@@ -1,0 +1,36 @@
+﻿@model PartyInvites.Models.Produkt_Razor
+
+@{
+    ViewBag.Title = "DemoExpression";
+}
+
+<table>
+    <thead>
+        <tr><th>Właściwość</th><th>Wartość</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Nazwa</td><td>@Model.Name</td></tr>
+        <tr><td>Cena</td><td>@Model.Price</td></tr>
+        <tr><td>Ilosc w magazynie
+            @switch ((int)ViewBag.ProductCount)
+            {
+                case 0:
+                    @:Brak
+                    break;
+                case 1:
+                    <b> Mało (@ViewBag.ProductCount)</b>
+                    break;
+                default:
+                    @ViewBag.ProductCount
+                    break;
+            }
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div data-discout="@ViewBag.ApllyDiscount" data-express="@ViewBag.ExpressShip"
+     data-suppiler="ViewBag.Suppiler">
+    </div>
+Rabat: <input type="checkbox" checked="@ViewBag.ApplyDiscount"/>
+Expresss: <input type="checkbox" checked="@ViewBag.ExpressShip"/>
+Dostawca: <input type="checkbox" checked="@ViewBag.Suppiler"/>

@@ -66,3 +66,13 @@ C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\obj\Debug\PartyInvites.cs
 C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\obj\Debug\PartyInvites.csproj.CopyComplete
 C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\obj\Debug\PartyInvites.dll
 C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\obj\Debug\PartyInvites.pdb
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.dll
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Common.dll
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Mvc.dll
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\WebActivator.dll
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.pdb
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.xml
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Common.pdb
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Common.xml
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Mvc.pdb
+C:\Users\Dazzyl\source\repos\PartyInvites\PartyInvites\bin\Ninject.Web.Mvc.xml
